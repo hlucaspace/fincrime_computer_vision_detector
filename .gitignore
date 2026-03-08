@@ -5,3 +5,5 @@ check_image/
 __pycache__/
 *.pyc
 temp_img.jpeg
+.DS_Store
+.idea/
