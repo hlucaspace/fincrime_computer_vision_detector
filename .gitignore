@@ -4,4 +4,4 @@ check_image/
 .env
 __pycache__/
 *.pyc
-temp_img.jpeg/
+temp_img.jpeg
