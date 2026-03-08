@@ -1,6 +1,7 @@
 .venv/
 .venv1/
-.check_image
+check_image/
 .env
 __pycache__/
 *.pyc
+temp_img.jpeg/
