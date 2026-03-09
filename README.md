@@ -195,3 +195,19 @@ If no publicly available pre-trained model meets the hypothesis thresholds, the 
 - Nasdaq Verafin Global Financial Crime Report, 2024
 - Federal Reserve Bank of Boston, 2023
 - Federal Reserve Risk Officer Survey, 2024
+
+
+## Setup Instructions
+
+1. Install dependencies
+   pip install streamlit pillow inference-sdk python-dotenv
+
+3. Create a free account at roboflow.com and generate an API key
+
+4. Create a .env file in the project root:
+   {api_key}=your_api_key_here
+
+5. Bank Check Sample Images Ready
+
+6. Run the app:
+   streamlit run app.py
