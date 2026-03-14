@@ -1,4 +1,5 @@
 # FinCrime Bank Check AI Fraud Detection — Computer Vision POC
+## Author: Lucas Huh
 
 ## PROBLEM STATEMENT
 
