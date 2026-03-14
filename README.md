@@ -1,9 +1,6 @@
 # FinCrime Bank Check AI Fraud Detection — Computer Vision POC
 ## Author: Lucas Huh
 
-
-
-
 ## PROBLEM STATEMENT
 
 Despite digital fraud prevention has matured, physical and scanned document fraud remains widely used and continues to be a critical exposure, which remains largely unaddressed. The volumes of bank checks in the US have declined by over 80% over the last 30 years, yet banks reported 680,000 cases of checks fraud in the US in 2023, which nearly doubled the number reported in 2021 (Federal Reserve Bank of Boston, 2023).
@@ -199,3 +196,19 @@ If no publicly available pre-trained model meets the hypothesis thresholds, the 
 - Nasdaq Verafin Global Financial Crime Report, 2024
 - Federal Reserve Bank of Boston, 2023
 - Federal Reserve Risk Officer Survey, 2024
+
+
+## Setup Instructions
+
+1. Install dependencies
+   pip install streamlit pillow inference-sdk python-dotenv
+
+3. Create a free account at roboflow.com and generate an API key
+
+4. Create a .env file in the project root:
+   {api_key}=your_api_key_here
+
+5. Bank Check Sample Images Ready
+
+6. Run the app:
+   streamlit run app.py
